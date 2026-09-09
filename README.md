@@ -12,7 +12,7 @@ A **Streamlit web application** provides an interactive interface where users ca
 
 ## Business Problem
 
-Fraud detection is a highly imbalanced classification problem. In real-world financial systems, legitimate transactions greatly outnumber fraudulent transactions.
+Financial institutions process millions of transactions every day, making it difficult to manually identify suspicious activity. It is a highly imbalanced classification problem. In real-world financial systems, legitimate transactions greatly outnumber fraudulent transactions.
 
 The objective of this project is to help identify potentially fraudulent transactions while providing interpretable explanations that can support fraud analysts in investigating suspicious activity.The solution aims to:
 
@@ -31,7 +31,7 @@ The objective of this project is to help identify potentially fraudulent transac
 ---
 
 ## 📁 Project Structure
-
+```text
 fraud-detection/
 │
 ├── app/
@@ -49,7 +49,9 @@ fraud-detection/
 ├── notebooks/
 │
 └── README.md
+
 ---
+
 ## Technologies
 
 `Python` `Pandas` `NumPy` `Scikit-learn` `XGBoost` `SHAP` `Streamlit` `Matplotlib` `Joblib`
