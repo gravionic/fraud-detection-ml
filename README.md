@@ -31,7 +31,7 @@ The objective of this project is to help identify potentially fraudulent transac
 ---
 
 ## 📁 Project Structure
-```text
+```
 fraud-detection/
 │
 ├── app/
@@ -49,7 +49,7 @@ fraud-detection/
 ├── notebooks/
 │
 └── README.md
-
+```
 ---
 
 ## Technologies
