@@ -58,8 +58,8 @@ fraud-detection/
 
 ---
 
-# Machine Learning Pipeline
-
+## Machine Learning Pipeline
+```
 Raw Dataset
       ↓
 Data Inspection & Cleaning
@@ -83,10 +83,10 @@ Model Evaluation
 SHAP Explainability
       ↓
 Streamlit App
-
+```
 ---
 
-# Models Evaluated
+## Models Evaluated
 
 - Logistic Regression
 - Decision Tree
@@ -94,7 +94,7 @@ Streamlit App
 - XGBoost
 
 ---
-# Final Model Selection 
+## Final Model Selection 
 
 The XGBoost model was selected as the final model using for fraud detection as it provides the best overall performance based on:
 - Precision
@@ -115,7 +115,7 @@ XGBoost was chosen over the other evaluated models because it provided the best 
 
 The analysis revealed some important patterns in fraudulent transactions:
 
-- **Fraud is really rare i.e., ** only **~0.13%**.
+- Fraud is really rare i.e., only **~0.13%**.
 - Account balance behaviour is the strongest signal.
 - Transaction type matters, particularly **PAYMENT and CASH_OUT**.
 - **Feature engineering improved the fraud signal** such as `OrigBalanceChange` and `DestBalanceChange` revealing how money moves between accounts rather than relying only on individual balance values.
