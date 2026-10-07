@@ -7,7 +7,6 @@ import pandas as pd
 import numpy as np
 import shap
 from groq import Groq
-import os
 import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 
@@ -23,7 +22,7 @@ MODEL_DIR = Basedir / "model"
 # 3. Load the trained pipeline and initialize the Groq client
 
 model = jl.load(MODEL_DIR / "fraud_detection_model.pkl")
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # 4. Page settings
 
