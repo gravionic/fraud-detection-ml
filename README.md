@@ -8,6 +8,8 @@ This project develops an end-to-end machine learning pipeline for detecting frau
 
 A **Streamlit web application** provides an interactive interface where users can enter transaction information and receive the prediction, explanation and recommendation.
 
+### Live Demo app: https://fraud-detection-ml-gravionic.streamlit.app/
+
 ---
 
 ## Business Problem
